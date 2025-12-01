@@ -8,4 +8,3 @@ All tools in this repository are developed and maintained by Digitizer, a profes
 More information is available at:
 https://digitizerco.net
 
-If you want, I can expand this README, add badges, usage examples, installation instructions, or tool-by-tool documentation.
