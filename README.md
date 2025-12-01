@@ -1,41 +1,64 @@
 Persian to Gregorian Date Converter
 
-A simple web-based date conversion application built with HTML, CSS, and PHP
+A dual-version web-based date conversion application built with HTML, CSS, PHP, and JavaScript
 
-This project provides a lightweight and reliable tool for converting Persian (Jalali) dates to Gregorian dates. The Persian calendar is widely used in Iran, and accurate conversion to the Gregorian calendar is essential for many web applications, registration forms, international systems, and data processing workflows. This tool is designed to be fast, easy to use, and fully compatible with any PHP-hosting environment.
+This project provides two separate implementations for converting Persian (Jalali) dates to Gregorian dates. One version uses PHP for server-side conversion, and the other uses JavaScript for client-side conversion. The Persian calendar is widely used in Iran, and accurate date conversion is essential for many web applications, registration flows, international platforms, and data processing tasks. Both versions are lightweight, fast, and easy to integrate into any web project.
 
 Features
 
-Fast and accurate conversion from Persian (Jalali) to Gregorian dates
+Two versions available:
 
-Clean and lightweight UI built with HTML and CSS
+PHP version (server-side conversion)
 
-Server-side conversion logic using PHP
+JavaScript version (client-side conversion)
+
+Accurate conversion from Persian (Jalali) to Gregorian dates
+
+Clean and minimal UI built with HTML and CSS
 
 No database required
 
 Fully browser compatible
 
-Suitable for integration into web projects and forms
+Suitable for web forms, apps, and general date-processing tasks
 
+Easy to integrate into existing websites
 
-How to Use
+Repository Links
 
-Clone the repository:
+You can access both versions in the following links:
 
+JavaScript Converter:
 https://github.com/hosein-barazande/web-Collection/blob/main/jalali-to-gregorian-converter-js
+
+PHP Converter:
 https://github.com/hosein-barazande/web-Collection/blob/main/jalali-to-gregorian-converter-php
 
+How to Use (PHP Version)
 
-Run the project on any server or local environment with PHP support.
+Clone the project or download the PHP converter files.
 
-Open index.php in your browser and enter a Persian date.
+Upload it to any hosting environment or run it locally with PHP enabled.
 
-The Gregorian converted date will be displayed instantly.
+Open index.php in your browser.
+
+Enter a Persian (Jalali) date.
+
+The corresponding Gregorian date will be displayed instantly.
+
+How to Use (JavaScript Version)
+
+Clone or download the JavaScript converter.
+
+Open index.html directly in any browser (no server required).
+
+Enter a Persian date.
+
+Conversion happens instantly on the client side.
 
 Related Links
 
-Full explanation of this project on Digitizer:
+Full description of this project on Digitizer:
 https://digitizerco.net/development_category/Persian-to-Gregorian-date-converter-program
 
 Official Digitizer website:
@@ -43,6 +66,5 @@ https://digitizerco.net
 
 Contributing
 
-Feel free to submit Pull Requests if you would like to contribute or expand the project.
-
-
+Contributions, improvements, and feature enhancements are welcome.
+Please feel free to submit Pull Requests.
