@@ -1,43 +1,36 @@
-# Sitemap Generator
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-This project is a simple and efficient tool for generating **sitemaps** of web pages.  
-By entering the URL of a page, the tool crawls all images on that page and produces an XML file following the standard sitemap format.
+## Getting Started
 
-## Features
+First, run the development server:
 
-- Crawl web pages with support for images.
-- Generate standard XML sitemap files.
-- Simple and modern user interface built with **React and Next.js**.
-- Ability to copy the sitemap content to the clipboard.
-- Modern UX with attractive, full-width styling.
-
-## Usage
-
-1. Clone the repository:
-   ```bash
-[   git clone <repository-url>
-](https://github.com/hosein-barazande/web-Collection/edit/main/mapGenerator)
-
-2.Install dependencies:
-pnpm install
-or using npm:
-npm install
-
-3.Run the development server:
+```bash
+npm run dev
+# or
+yarn dev
+# or
 pnpm dev
+# or
+bun dev
+```
 
-4.Open your browser and go to http://localhost:3000, enter the page URL, and generate the sitemap.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Project Structure
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-SitemapGenerator.tsx → Main UI component.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-SitemapGenerator.module.css → CSS module for component styling.
+## Learn More
 
-app/crawl/route.ts → API route handling the crawling process.
+To learn more about Next.js, take a look at the following resources:
 
-License
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-This project is free for personal and educational use.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-For more information and web services, visit our website: https://digitizerco.net
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
